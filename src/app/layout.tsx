@@ -8,7 +8,6 @@ import "../../public/assets/css/swiper-bundle.min.css";
 import "../../public/assets/css/style.css";
 import "../../public/assets/css/responsive.css";
 
-import Header from "../../public/components/Header";
 import ColorPicker from "../../public/components/ColorPicker";
 import PageLoader from "../../public/components/PageLoader";
 
