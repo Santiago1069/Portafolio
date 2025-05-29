@@ -10,7 +10,6 @@ import Education from "../../public/components/Education";
 import Experience from "../../public/components/Experience";
 import Intro from "../../public/components/Intro";
 import Line from "../../public/components/Line";
-import Pricing from "../../public/components/Pricing";
 import Projects from "../../public/components/Projects";
 import Services from "../../public/components/Services";
 import Sidebar from "../../public/components/Sidebar";

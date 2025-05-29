@@ -10,6 +10,7 @@ import "../../public/assets/css/responsive.css";
 
 import ColorPicker from "../../public/components/ColorPicker";
 import PageLoader from "../../public/components/PageLoader";
+import Script from "next/script";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -42,13 +43,14 @@ export default function RootLayout({
           {children}
         </main>
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.fancybox.min.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/ResizeSensor.min.js"></script>
-        <script src="assets/js/theia-sticky-sidebar.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+        <Script src="assets/js/jquery.min.js" strategy="beforeInteractive" />
+        <Script src="assets/js/bootstrap.min.js"  strategy="beforeInteractive"/>
+        <Script src="assets/js/jquery.fancybox.min.js"  strategy="beforeInteractive"/>
+        <Script src="assets/js/swiper-bundle.min.js"  strategy="beforeInteractive"/>
+        <Script src="assets/js/ResizeSensor.min.js"  strategy="beforeInteractive"/>
+        <Script src="assets/js/theia-sticky-sidebar.min.js"  strategy="beforeInteractive"/>
+        <Script src="assets/js/scripts.js"  strategy="beforeInteractive"/>
+      
       </body>
     </html>
   );
