@@ -3114,7 +3114,7 @@ nav ul li.active > a:before {
 }
 .comp-box {
   margin: -0.5px;
-  min-height: 8.9375rem;
+  min-height: 10rem;
 }
 .comp-box:hover {
   z-index: 1;

@@ -11,20 +11,21 @@ export default function AboutMe() {
             >
               <div className="sec-title d-flex flex-column align-items-start w-100">
                 <span className="sec-sub rounded-pill text-center">
-                  About Me
+                  Sobre mi
                 </span>
                 <h2 className="mb-0 sz-40">
-                  I Have Rich Experience In Web Site Design
+                  Tengo amplia experiencia en la creación de aplicaciones web
+                  modernas.
                 </h2>
               </div>
               <a
                 className="simple-link wow fadeInUp"
                 data-wow-duration=".5s"
                 data-wow-delay=".4s"
-                href="javascript:void(0);"
+                href="https://drive.google.com/file/d/1t9RMb9ZBpKZJDnmvIt6vtKeDPsdrRju4/view?usp=sharing"
                 title=""
               >
-                <i className="fas fa-arrow-alt-to-bottom round5"></i>Download CV
+                <i className="fas fa-arrow-alt-to-bottom round5"></i>Descargar CV
               </a>
             </div>
           </div>
@@ -51,16 +52,13 @@ export default function AboutMe() {
                 </a>
               </div>
               <p className="mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                nisi, augue urna, mauris elementum ligula semper enim. Tristique
-                sed sit facilisis ultrices rhoncus eget ullamcorper tellus.
-                Itaque earum rerum hic tenetur a sapiente delectus, ut aut
-                reiciendi.
+                Con amplia experiencia en desarrollo front-end y back-end, me
+                especializo en tecnologías como JavaScript, React, Angular,
+                Node.js y Spring Boot.
               </p>
               <p className="mb-0">
-                Srepellat volup tatibus maiores aliasta consequatur auto
-                perferendis repellat quia voluptas sit upto aspernatur te natus
-                accusan.
+                Mi objetivo es ofrecer soluciones de alto
+                rendimiento que satisfagan las necesidades de su negocio.
               </p>
             </div>
           </div>
