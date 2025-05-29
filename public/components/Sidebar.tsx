@@ -6,7 +6,7 @@ export default function Sidebar() {
             <div className="user-img round40 overflow-hidden position-relative w-100">
               <img
                 className="img-fluid w-100"
-                src="assets/images/resources/user-img.png"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQEoP8uyWDxBiQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702068770517?e=1753920000&v=beta&t=32Qv8hrznUe6OZmSKd_FIgbZsCTIUX2JPk_0haI1bjE"
                 alt="User Image"
                 loading="lazy"
               />

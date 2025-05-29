@@ -1,14 +1,31 @@
+'use client'
+
+import { useEffect } from "react";
 import AboutMe from "../../public/components/AboutMe";
+import Blogs from "../../public/components/Blogs";
 import Companies from "../../public/components/Companies";
+import Contact from "../../public/components/Contact";
+import ContactMe from "../../public/components/ContactMe";
 import Education from "../../public/components/Education";
 import Experience from "../../public/components/Experience";
 import Intro from "../../public/components/Intro";
 import Line from "../../public/components/Line";
+import Pricing from "../../public/components/Pricing";
+import Projects from "../../public/components/Projects";
 import Services from "../../public/components/Services";
 import Sidebar from "../../public/components/Sidebar";
 import Skills from "../../public/components/Skills";
+import Testimonial from "../../public/components/Testimonial";
 
 export default function Home() {
+
+  useEffect(() => {
+    import("wowjs").then((WOW) => {
+      new WOW.WOW().init();
+    });
+  }, []);
+
+
   return (
     <>
       <section>
@@ -34,6 +51,12 @@ export default function Home() {
                       </div>
                     </div>
                   </section>
+                  <Projects />
+                  <Testimonial />
+                  {/* <Pricing /> */}
+                  <ContactMe />
+                  <Blogs />
+                  <Contact />
                 </div>
               </div>
             </div>

@@ -1,14 +1,5 @@
-"use client";
-
-import { useEffect } from "react";
 
 export default function Intro() {
-  useEffect(() => {
-    import("wowjs").then((WOW) => {
-      new WOW.WOW().init();
-    });
-  }, []);
-
   return (
     <section>
       <div className="position-relative w-100">

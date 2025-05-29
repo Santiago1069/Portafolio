@@ -56,21 +56,6 @@ export default function Header() {
                                 </li>
                                 <li><a href="#contact" title="">Contact</a></li>
                             </ul>
-
-                            <div className="cont-info d-inline-flex align-items-center gap-2">
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                                        <g>
-                                            <path d="M98.5,53.93c...z" />
-                                            <path d="M64.78,78.37c...z" />
-                                        </g>
-                                    </svg>
-                                </span>
-                                <div className="cont-info-inner d-flex align-items-start flex-column">
-                                    <span>Contact Me At:</span>
-                                    <a href="tel:(635) 525-4250" title="Call Us">(635) 525-4250</a>
-                                </div>
-                            </div>
                         </nav>
 
                         <a className="res-menu-btn" href="javascript:void(0);" title="">
